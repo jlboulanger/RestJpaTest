@@ -1,4 +1,5 @@
 # docker run -p 5432:5432 -id -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=test-db -v /var/run/postgresql:/var/run/postgresql --name postgres12 postgres:12-alpine
+# docker container start postgres12
 # psql -U postgres -d test_db -p 5432
 
 create sequence personne_id_seq;
